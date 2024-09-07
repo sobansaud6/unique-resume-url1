@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Creation</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Create Your Resume</h1>
+        <form id="resume-form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <button type="submit">Generate Resume</button>
+        </form>
+        <div id="resume-link" class="hidden">
+            <p>Your resume is available at:</p>
+            <a id="resume-url" href="#" target="_blank">View Resume</a>
+            <button id="copy-link">Copy Link</button>
+        </div>
+    </div>
+    <script src="../dist/app.js"></script> 
+</body>
+</html>
